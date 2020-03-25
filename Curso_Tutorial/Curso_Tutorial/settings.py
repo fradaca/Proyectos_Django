@@ -54,7 +54,7 @@ ROOT_URLCONF = 'Curso_Tutorial.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["/home/franco/Escritorio/Proyectos_Django/Curso_Tutorial/Curso_Tutorial/Templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
