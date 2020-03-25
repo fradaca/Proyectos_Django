@@ -28,3 +28,7 @@ def saludo(request):
     documento_cargado=documento_externo.render(Diccionario_plantilla)
 
     return HttpResponse(documento_cargado)
+
+def Plantilla_Heredada(request):
+
+    return render(request,"CursoC.html")
